@@ -182,10 +182,11 @@ class NavBar extends Component {
         if(path === "/projector") {
             return null;
         }
+        let shouldRender = 1; //this.state.shouldrender
         if (!defaults.freeze) {
             return(
                 <Navbar id="navbar"
-                    style={{ width: "100%", zIndex: "20", backgroundColor: theme.secondary[1], opacity: this.state.shouldRender | !onLanding, pointerEvents: this.state.shouldRender | !onLanding ? "auto":"none", transition: !onLanding ? "" : "opacity 0.5s" }}
+                    style={{ width: "100%", zIndex: "20", backgroundColor: theme.secondary[1], opacity: shouldRender | !onLanding, pointerEvents: shouldRender | !onLanding ? "auto":"none", transition: !onLanding ? "" : "opacity 0.5s" }}
                     fixed="top"
                     dark
                     expand="md"

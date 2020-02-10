@@ -22,7 +22,7 @@ class Logo extends Component {
                         easing: "easeInOutExpo",
                         duration: 7500,
                         direction: "alternate",
-                        delay: () => { return 1000; },
+                        delay: () => { return 500; },
                         loop: true
                     });
                 });

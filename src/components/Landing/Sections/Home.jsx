@@ -30,7 +30,7 @@ class Home extends Component {
                             style={{ display: "block" }}>
                             {loggoutMsg}
                             <Logo noCircle
-                                src="./assets/icons/hru-logo.svg" />
+                                src="./assets/icons/hackru-text.svg" />
                             <h2 style={{ marginTop: 15 }}
                                 className="display-4 theme-font">Hackathon at Rutgers University</h2>
                             <h2 className="lead theme-font"><Icon style={{ marginRight: 5 }}
